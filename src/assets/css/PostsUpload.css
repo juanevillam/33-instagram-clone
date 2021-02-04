@@ -1,0 +1,63 @@
+.postsUploads__addNewPost {
+    display: flex;
+    flex-direction: column;
+}
+
+.postsUploads__instaLogo {
+    object-fit: contain;
+}
+
+.postsUploads__input {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.postsUploads {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.postsUploads__progress {
+    width: 100%;
+}
+
+.postsUploads__inputFile {
+    margin-top: 1px;
+}
+
+.postsUploads__button {
+    font-family: Ubuntu-Bold;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #827ffe;
+    border-radius: 10px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;;
+}
+
+.postsUploads__button:hover {
+    background-color: #403866;
+}
